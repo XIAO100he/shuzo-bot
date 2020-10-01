@@ -1,0 +1,275 @@
+{
+  "init": {
+    "answers": [
+        {"content": "仕事で悩んでいます", "nextId": "work"},
+        {"content": "恋愛に悩んでいます", "nextId": "love"},
+        {"content": "人生に悩んでいます", "nextId": "life"},
+        {"content": "ただ元気がありません", "nextId": "health"}
+    ],
+    "question": "おい、そこの君！暗い顔してどうしたんだ！？"
+},
+"work": {
+  "answers": [
+      {"content": "上司に叱られました", "nextId": "work_1"},
+      {"content": "ミスをしました", "nextId": "work_2"},
+      {"content": "イライラすることがありました", "nextId": "work_3"},
+      {"content": "疲れました", "nextId": "work_4"},
+      {"content": "辞めたいです", "nextId": "work_5"}
+  ],
+  "question": "仕事で何があったんだ？"
+},
+"love": {
+  "answers": [
+      {"content": "フラれました", "nextId": "love_1"},
+      {"content": "好きな人ができません", "nextId": "love_2"},
+      {"content": "別れたいです", "nextId": "love_3"},
+      {"content": "彼/彼女無しでは生きていけません", "nextId": "love_4"},
+      {"content": "疲れました", "nextId": "love_5"}
+  ],
+  "question": "恋愛で何があったんだ？"
+},
+"life": {
+  "answers": [
+      {"content": "時間が足りません", "nextId": "life_1"},
+      {"content": "お金が足りません", "nextId": "life_2"},
+      {"content": "やりたいことが見つかりません", "nextId": "life_3"},
+      {"content": "彼/将来が不安です", "nextId": "life_4"},
+      {"content": "日々楽しくありません", "nextId": "life_5"}
+  ],
+  "question": "人生の何に悩んでいるんだ？"
+},
+"health": {
+  "answers": [
+      {"content": "朝起きるのが辛いです", "nextId": "health_1"},
+      {"content": "疲れています", "nextId": "health_2"},
+      {"content": "眠たいです", "nextId": "health_3"},
+      {"content": "お腹が空きました", "nextId": "health_4"},
+      {"content": "飽きました", "nextId": "health_5"}
+  ],
+  "question": "それは心配だ！何があったんだ？"
+},
+"work_1": {
+  "answers": [
+      {"content": "復活しました！", "nextId": "thanks_1"},
+      {"content": "もっとパワーください！", "nextId": "more_1"},
+      {"content": "最初に戻る", "nextId": "init"}
+  ],
+  "question": "反省はしろ！後悔はするな！"
+},
+
+"work_2": {
+  "answers": [
+      {"content": "いける気してきました！", "nextId": "thanks_2"},
+      {"content": "もう一丁！", "nextId": "more_2"},
+      {"content": "最初に戻る", "nextId": "init"}
+  ],
+  "question": "真剣だからこそ、ぶつかる壁がある"
+},
+"work_3": {
+  "answers": [
+      {"content": "元気になりました！", "nextId": "thanks_3"},
+      {"content": "もっと欲しいです！", "nextId": "more_3"},
+      {"content": "最初に戻る", "nextId": "init"}
+  ],
+  "question": "眉間に皺を寄せていたところで怪我が早く治るわけでもない"
+},
+"work_4": {
+  "answers": [
+      {"content": "何に悩んでいたか忘れました", "nextId": "thanks_4"},
+      {"content": "もっと欲しがっている自分がいます", "nextId": "more_4"},
+      {"content": "最初に戻る", "nextId": "init"}
+  ],
+  "question": "一所懸命生きていれば 不思議なことに疲れない"
+},
+"work_5": {
+  "answers": [
+      {"content": "カムサムニダ〜！", "nextId": "thanks_5"},
+      {"content": "最後にとっておきのください！", "nextId": "more_5"},
+      {"content": "最初に戻る", "nextId": "init"}
+  ],
+  "question": "泥まみれに生きるってかっこ悪いと思ってるんじゃないですか？"
+},
+"love_1": {
+  "answers": [
+      {"content": "復活しました！", "nextId": "thanks_1"},
+      {"content": "もっとパワーください！", "nextId": "more_1"},
+      {"content": "最初に戻る", "nextId": "init"}
+  ],
+  "question": "よく、時間が解決してくれると言うけれど、そうは思わない。でも、行動した時間なら解決してくれるはずだ"
+},
+
+"love_2": {
+  "answers": [
+      {"content": "いける気してきました！", "nextId": "thanks_2"},
+      {"content": "もう一丁！", "nextId": "more_2"},
+      {"content": "最初に戻る", "nextId": "init"}
+  ],
+  "question": "気にすんなよ！くよくよすんなよ！大丈夫、どうにかなるって！ドントウォーリー！ビーハッピー！"
+},
+"love_3": {
+  "answers": [
+      {"content": "元気になりました！", "nextId": "thanks_3"},
+      {"content": "もっと欲しいです！", "nextId": "more_3"},
+      {"content": "最初に戻る", "nextId": "init"}
+  ],
+  "question": "人の弱点を見つける天才よりも、人を褒める天才がいい"
+},
+"love_4": {
+  "answers": [
+      {"content": "何に悩んでいたか忘れました", "nextId": "thanks_4"},
+      {"content": "もっと欲しがっている自分がいます", "nextId": "more_4"},
+      {"content": "最初に戻る", "nextId": "init"}
+  ],
+  "question": "「できる」「できない」を決めるのは「自分」だ"
+},
+"love_5": {
+  "answers": [
+      {"content": "カムサムニダ〜！", "nextId": "thanks_5"},
+      {"content": "最後にとっておきのください！", "nextId": "more_5"},
+      {"content": "最初に戻る", "nextId": "init"}
+  ],
+  "question": "苦しい時ほど笑ってごらん！"
+},
+"life_1": {
+  "answers": [
+      {"content": "復活しました！", "nextId": "thanks_1"},
+      {"content": "もっとパワーください！", "nextId": "more_1"},
+      {"content": "最初に戻る", "nextId": "init"}
+  ],
+  "question": "ウルトラ諦めない！！！"
+},
+
+"life_2": {
+  "answers": [
+      {"content": "いける気してきました！", "nextId": "thanks_2"},
+      {"content": "もう一丁！", "nextId": "more_2"},
+      {"content": "最初に戻る", "nextId": "init"}
+  ],
+  "question": "崖っぷちありがとう！最高だ！"
+},
+"life_3": {
+  "answers": [
+      {"content": "元気になりました！", "nextId": "thanks_3"},
+      {"content": "もっと欲しいです！", "nextId": "more_3"},
+      {"content": "最初に戻る", "nextId": "init"}
+  ],
+  "question": "そう、みんな！！！ 竹になろう！！！ バンブー！！！"
+},
+"life_4": {
+  "answers": [
+      {"content": "何に悩んでいたか忘れました", "nextId": "thanks_4"},
+      {"content": "もっと欲しがっている自分がいます", "nextId": "more_4"},
+      {"content": "最初に戻る", "nextId": "init"}
+  ],
+  "question": "悩みん坊、万歳！"
+},
+"life_5": {
+  "answers": [
+      {"content": "カムサムニダ〜！", "nextId": "thanks_5"},
+      {"content": "最後にとっておきのください！", "nextId": "more_5"},
+      {"content": "最初に戻る", "nextId": "init"}
+  ],
+  "question": "自分を好きになれ！"
+},
+"health_1": {
+  "answers": [
+      {"content": "復活しました！", "nextId": "thanks_1"},
+      {"content": "もっとパワーください！", "nextId": "more_1"},
+      {"content": "最初に戻る", "nextId": "init"}
+  ],
+  "question": "ぬるま湯なんかつかってんじゃねぇよお前！！"
+},
+
+"health_2": {
+  "answers": [
+      {"content": "いける気してきました！", "nextId": "thanks_2"},
+      {"content": "もう一丁！", "nextId": "more_2"},
+      {"content": "最初に戻る", "nextId": "init"}
+  ],
+  "question": "心の背筋を伸ばせ！"
+},
+"health_3": {
+  "answers": [
+      {"content": "元気になりました！", "nextId": "thanks_3"},
+      {"content": "もっと欲しいです！", "nextId": "more_3"},
+      {"content": "最初に戻る", "nextId": "init"}
+  ],
+  "question": "今日から君は富士山だ！"
+},
+"health_4": {
+  "answers": [
+      {"content": "何に悩んでいたか忘れました", "nextId": "thanks_4"},
+      {"content": "もっと欲しがっている自分がいます", "nextId": "more_4"},
+      {"content": "最初に戻る", "nextId": "init"}
+  ],
+  "question": "お米食べろ！"
+},
+"health_5": {
+  "answers": [
+      {"content": "カムサムニダ〜！", "nextId": "thanks_5"},
+      {"content": "最後にとっておきのください！", "nextId": "more_5"},
+      {"content": "最初に戻る", "nextId": "init"}
+  ],
+  "question": "本気になれば自分が変わる！ 本気になれば全てが変わる！！"
+},
+"thanks_1": {
+  "answers": [
+      {"content": "最初に戻る", "nextId": "init"}
+  ],
+  "question": "ネクストタイム！!"
+},
+"thanks_2": {
+  "answers": [
+      {"content": "最初に戻る", "nextId": "init"}
+  ],
+  "question": "ビリーヴミーから始めよう!"
+},
+"thanks_3": {
+  "answers": [
+      {"content": "最初に戻る", "nextId": "init"}
+  ],
+  "question": "ダシのある人間になれ！!"
+},
+"thanks_4": {
+  "answers": [
+      {"content": "最初に戻る", "nextId": "init"}
+  ],
+  "question": "いつも心はネバーギブアップ！"
+},
+"thanks_5": {
+  "answers": [
+      {"content": "最初に戻る", "nextId": "init"}
+  ],
+  "question": "僕は君の修クリーム"
+},
+"more_1": {
+  "answers": [
+      {"content": "最初に戻る", "nextId": "init"}
+  ],
+  "question": "君が次に叩く1回で、壁は打ち破れるかもしれないんだ！"
+},
+"more_2": {
+  "answers": [
+      {"content": "最初に戻る", "nextId": "init"}
+  ],
+  "question": "もっと熱くなれよ 熱い血燃やしてけよ！人間熱くなった時が本当の自分に出会えるんだ！！!"
+},
+"more_3": {
+  "answers": [
+      {"content": "最初に戻る", "nextId": "init"}
+  ],
+  "question": "暑くなければ夏じゃない。熱くなければ人生じゃない！!"
+},
+"more_4": {
+  "answers": [
+      {"content": "最初に戻る", "nextId": "init"}
+  ],
+  "question": "何言ってんだよ！！その崖っぷちが最高のチャンスなんだぜ！！"
+},
+"more_5": {
+  "answers": [
+      {"content": "最初に戻る", "nextId": "init"}
+  ],
+  "question": "心のお風呂に情熱の薪をくべろ！"
+}
+}
