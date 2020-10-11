@@ -33,7 +33,7 @@
       {"content": "時間が足りません", "nextId": "life_1"},
       {"content": "お金が足りません", "nextId": "life_2"},
       {"content": "やりたいことが見つかりません", "nextId": "life_3"},
-      {"content": "彼/将来が不安です", "nextId": "life_4"},
+      {"content": "彼/彼女との将来が不安です", "nextId": "life_4"},
       {"content": "日々楽しくありません", "nextId": "life_5"}
   ],
   "question": "人生の何に悩んでいるんだ？"
