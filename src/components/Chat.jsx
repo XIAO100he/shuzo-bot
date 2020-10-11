@@ -2,25 +2,26 @@ import React from 'react';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import Avatar from '@material-ui/core/Avatar';
-import NoProfile from '../assets/img/no-profile.png';
+import NoName from '../assets/img/no-name.jpeg'
 import Shuzo from '../assets/img/shuzo.jpg';
 
-const Chat = () => {
+const Chat = (props) => {
+  const isQuestion = (props.type === 'question');
+  const classes = isQuestion ? 'p-chat_row' : 'p-chat_reverse';
+
   return (
     <>
-        <ListItem className="p-chat_row">
+        <ListItem className={classes}>
             <ListItemAvatar>
-              <Avatar alt="icon" src={NoProfile} />
-              <Avatar alt="icon" src={Shuzo} />
+              {isQuestion ? (
+                <Avatar alt="icon" src={Shuzo} />
+              ) : (
+                <Avatar alt="icon" src={NoName} />
+              )}
             </ListItemAvatar>
-            <div className="p-chat_text"></div>
-        </ListItem>
-        <ListItem className="p-chat_reverse">
-          <ListItemAvatar>
-            <Avatar alt="icon" src={NoProfile} />
-            <Avatar alt="icon" src={Shuzo} />
-          </ListItemAvatar>
-          <div className="p-chat_text"></div>
+          <div className="p-chat_text">
+            {props.text}
+          </div>
         </ListItem>
     </>
   )
